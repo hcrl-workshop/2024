@@ -911,3 +911,25 @@ td {
 
 abstract {
   font-size: 0.90rem; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.person {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.person img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.person p {
+  margin: 0;
+}
