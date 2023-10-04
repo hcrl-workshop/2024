@@ -598,11 +598,19 @@ body {
     background: #3be1c5;
     outline: thick solid #3be1c5; }
 
-a {
-  color: #C41E3A;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+    a {
+      color: #5469d4;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+    
+    a:hover {
+       color: #223490;
+    }
+
+    a:hover, a:focus {
+      text-decoration: none;
+  }
 
 .btn {
   display: inline-block;
