@@ -942,3 +942,19 @@ abstract {
 .person p {
   margin: 0;
 }
+
+.alert {
+  width: 100%;
+  padding: 16px;
+  margin: 8px;
+  max-width: 100%;
+}
+
+.alert-2-success {
+  border-left: 4px solid #2ec946;
+  background-color: rgba(46, 201, 70, 0.05);
+}
+
+.alert-2-success .alert-title {
+  color: #2ec946;
+}
